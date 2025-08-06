@@ -1,0 +1,177 @@
+/* =======================
+   Global Styles
+======================= */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #fffaf0;
+  color: #333;
+  line-height: 1.7;
+  padding: 20px;
+}
+
+a {
+  color: #f97316;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+header.banner {
+  background: linear-gradient(to right, #f59e0b, #fbbf24);
+  color: white;
+  text-align: center;
+  padding: 30px 20px;
+  border-radius: 12px;
+  box-shadow: 0 6px 12px rgba(0,0,0,0.2);
+  margin-bottom: 30px;
+}
+
+header.banner h1 {
+  font-size: 36px;
+  text-shadow: 1px 1px 4px rgba(0,0,0,0.3);
+}
+
+/* =======================
+   About Page Styles
+======================= */
+.about {
+  background-color: #fff7ed;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.about h2 {
+  color: #d97706;
+  margin-bottom: 20px;
+  font-size: 28px;
+}
+
+.about p {
+  font-size: 18px;
+  margin-bottom: 15px;
+  text-align: justify;
+}
+
+.about ul {
+  padding-left: 20px;
+  margin-bottom: 20px;
+}
+
+.about ul li {
+  font-size: 17px;
+  margin-bottom: 8px;
+}
+
+.about img {
+  width: 250px;
+  border-radius: 15px;
+  box-shadow: 0 6px 25px rgba(0, 0, 0, 0.3);
+  transition: transform 0.3s ease-in-out;
+}
+
+.about img:hover {
+  transform: scale(1.05);
+}
+
+.about .caption {
+  font-style: italic;
+  color: #666;
+  margin-top: 10px;
+}
+
+/* =======================
+   Manifesto Page Styles
+======================= */
+.manifesto {
+  background-color: #fef3c7;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.manifesto h2 {
+  color: #b45309;
+  font-size: 28px;
+  margin-bottom: 20px;
+}
+
+.manifesto p {
+  font-size: 18px;
+  margin-bottom: 16px;
+}
+
+.manifesto ul {
+  padding-left: 25px;
+  list-style: disc;
+}
+
+.manifesto ul li {
+  font-size: 17px;
+  margin-bottom: 10px;
+}
+
+/* =======================
+   Contact Page Styles
+======================= */
+.contact {
+  background-color: #ecfccb;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.contact h2 {
+  color: #15803d;
+  font-size: 28px;
+  margin-bottom: 20px;
+}
+
+.contact p, .contact label {
+  font-size: 18px;
+  margin-bottom: 12px;
+  display: block;
+}
+
+.contact input, .contact textarea {
+  width: 100%;
+  padding: 12px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  margin-bottom: 15px;
+  font-size: 16px;
+}
+
+.contact button {
+  background-color: #22c55e;
+  color: white;
+  padding: 12px 24px;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.contact button:hover {
+  background-color: #16a34a;
+}
+
+/* =======================
+   Footer (Optional)
+======================= */
+footer {
+  text-align: center;
+  padding: 20px;
+  margin-top: 40px;
+  color: #999;
+  font-size: 14px;
+}
